@@ -1,8 +1,9 @@
 
-:root{--paper:#F1F2EF;--sheet:#FAFAF8;--ink:#23160F;--mute:#5F5A52;--cherry:#A31D2B;--leaf:#55613A;--line:#D6D7D2;--land:#DCDED8}
+:root{--paper:#F1F2EF;--sheet:#FAFAF8;--ink:#23160F;--mute:#4D473E;--cherry:#A31D2B;--leaf:#55613A;--line:#D6D7D2;--land:#DCDED8}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.85 "Noto Sans TC",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--paper);color:var(--ink);font:500 17px/1.9 "Noto Serif TC","Chiron Sung HK",serif;font-feature-settings:"palt" 0}
+.mast nav,.sub,.kicker,.note,.crumb,.st,.bars,.filters button,.legend,.box dl,footer,.tl small,.reg dl,.btn,.eps,.more small,.rows small,.strip p,.gal figcaption,.fig figcaption,.belt .cap,.ask{font-family:"Noto Sans TC",system-ui,sans-serif;font-weight:500}
 a{color:inherit}
 a:focus-visible,button:focus-visible{outline:2px solid var(--cherry);outline-offset:3px}
 img{max-width:100%;display:block}
@@ -100,7 +101,7 @@ footer .w{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 .art .yr{font-size:clamp(90px,16vw,170px);margin:18px 0 0}
 .art h1{font-size:clamp(32px,5vw,50px);line-height:1.25;margin:12px 0 22px}
 .art .hook{font:700 23px/1.6 "Chiron Sung HK",serif;margin:0 0 30px;padding:0 0 26px;border-bottom:1px solid var(--line)}
-.art .body p{font-size:18px;line-height:1.95}
+.art .body p{font-size:18.5px;line-height:2}
 .art .body p:first-child::first-letter{font:900 3.1em/1 "Chiron Sung HK",serif;float:left;margin:.08em .12em 0 0;color:var(--cherry)}
 .pro{margin:34px 0;padding:22px 24px;background:var(--sheet);border-left:4px solid var(--leaf)}
 .pro h2{font-size:18px;color:var(--leaf);margin:0 0 8px}
